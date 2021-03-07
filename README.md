@@ -12,6 +12,9 @@ To start from scratch type `make clean`.
 
 To run the executable _see_ Usage.
 
+##### Dependencies
+- GTK+3
+
 ##### Supported image types
 - P3 (ASCII)
 - P6 (binary)
