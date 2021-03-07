@@ -17,24 +17,46 @@ To run the executable _see_ Usage.
 - P6 (binary)
 
 ##### Available commands
-- **-d** (single-flag) opens new window with [FILE]
+- **-d** 
 
-- **-n[r][g][b]** negates the red, green or blue value of each pixel
+(single-flag) opens new window with [FILE]
 
-- **-f[r][g][b]** sets red, green or blue value of each pixel to zero
+- **-n[r][g][b]** 
 
-- **-m**  flips image along diagonal
+negates the red, green or blue value of each pixel
 
-- **-fv** flips each row vertically
+- **-f[r][g][b]**
 
-- **-gs** sets each pixel value to the average of the three";
+sets red, green or blue value of each pixel to zero
 
-- **-hb** takes the values of the red numbers of three adjacent pixels and replaces them with their average
+- **-m**
 
-- **-ec** changes each colour number to either the highest colour number possible (if greater than 127) or to 0
+flips image along diagonal
 
-- **-rn** adds a random number to each colour number or subtracts a random number
+- **-fv**
 
-- **-i** inverts the red, green and blue vales of each pixel
+flips each row vertically
 
-- **-z[rg][rb][gb]** flattens red and green, red and blue or green and blue values of each pixel
+- **-gs**
+
+sets each pixel value to the average of the three";
+
+- **-hb**
+
+takes the values of the red numbers of three adjacent pixels and replaces them with their average
+
+- **-ec**
+
+changes each colour number to either the highest colour number possible (if greater than 127) or to 0
+
+- **-rn**
+
+adds a random number to each colour number or subtracts a random number
+
+- **-i**
+
+inverts the red, green and blue vales of each pixel
+
+- **-z[rg][rb][gb]**
+
+flattens red and green, red and blue or green and blue values of each pixel
