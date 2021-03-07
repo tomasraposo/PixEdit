@@ -43,7 +43,7 @@ sets each pixel value to the average of the three";
 
 - **-hb**
 
-takes the values of the red numbers of three adjacent pixels and replaces them with their average
+takes the values of the red, green and blue values of three adjacent pixels and replaces them with their corresponding average.
 
 - **-ec**
 
@@ -55,8 +55,8 @@ adds a random number to each colour number or subtracts a random number
 
 - **-i**
 
-inverts the red, green and blue vales of each pixel
+inverts the red, green and blue values of each pixel
 
 - **-z[rg][rb][gb]**
 
-flattens red and green, red and blue or green and blue values of each pixel
+flattens each pixel of any combination of two colours (without repetition)
