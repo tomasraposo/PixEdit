@@ -1,11 +1,17 @@
 # pixedit
 A tiny command line ppm editor 
-
 ```
 Usage: ./pixedit [OPTION] ... [INFILE] [OUTFILE]
 
 Type './pixedit --h [--help]' for instructions.
 ```
+
+After editing the source files type `make`.
+
+To start from scratch type `make clean`.
+
+To run the executable _see_ Usage.
+
 ##### Supported image types
 - P3 (ASCII)
 - P6 (binary)
