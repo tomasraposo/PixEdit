@@ -1,6 +1,11 @@
 # pixedit
 A tiny command line ppm editor 
 
+```
+Usage: ./pixedit [OPTION] ... [INFILE] [OUTFILE]
+
+Type './pixedit --h [--help]' for instructions.
+```
 ##### Supported image types
 - P3 (ASCII)
 - P6 (binary)
