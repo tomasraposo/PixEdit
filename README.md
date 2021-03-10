@@ -1,5 +1,5 @@
 # pixedit
-A tiny command line ppm editor 
+A command line ppm editor with built-in image viewer
 ```
 Usage: ./pixedit [OPTION] ... [INFILE] [OUTFILE]
 
